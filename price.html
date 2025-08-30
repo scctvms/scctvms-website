@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>SafeCam - CCTV Website Template</title>
+    <link rel="icon" type="image/x-icon" href="/logo/Untitled-1.png"> 
+    <title>Pricing Plans - Secure Link Monitoring Services</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Pricing, Secure Link, Remote Monitoring Plans, CCTV Monitoring Cost" name="keywords">
+    <meta content="Find affordable and transparent pricing plans for Secure Link's 24/7 remote monitoring services. Choose the best plan for your security needs." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -29,13 +30,80 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Custom Theme Styles -->
+    <style>
+        :root {
+            --bs-primary: #0d2c54; /* Professional Dark Blue */
+            --bs-secondary: #0d2c54; /* Using same for consistency */
+        }
+        
+        body {
+            color: #555;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #000;
+        }
+
+        .text-primary {
+            color: var(--bs-primary) !important;
+        }
+
+        .bg-primary {
+            background-color: var(--bs-primary) !important;
+        }
+
+        .btn-primary {
+            background-color: var(--bs-primary);
+            border-color: var(--bs-primary);
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: #091f3b;
+            border-color: #091f3b;
+        }
+
+        .btn-secondary {
+            background-color: #fff;
+            border-color: var(--bs-primary);
+            color: var(--bs-primary);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--bs-primary);
+            border-color: var(--bs-primary);
+            color: #fff;
+        }
+        
+        .service-item, .blog-item, .position-relative.border, .industry-item, .team-item {
+            transition: all .3s ease;
+            box-shadow: 0 4px 25px rgba(0,0,0,0.07);
+            border: 1px solid #eee;
+            height: 100%;
+        }
+        
+        .service-item:hover, .blog-item:hover, .position-relative.border:hover, .industry-item:hover, .team-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+            border-color: var(--bs-primary);
+        }
+        .hero-header {
+            background: linear-gradient(rgba(13, 44, 84, .8), rgba(13, 44, 84, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+            background-size: cover;
+        }
+        .bg-offer {
+            background: linear-gradient(rgba(13, 44, 84, .8), rgba(13, 44, 84, .8)), url(../img/carousel-2.jpg) center center no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
         <a href="index.html" class="navbar-brand ms-lg-5">
-            <h1 class="display-5 m-0 text-primary">Safe<span class="text-secondary">Cam</span></h1>
+            <h1 class="display-5 m-0 text-primary">Secure<span class="text-secondary">Link</span></h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -49,14 +117,11 @@
                     <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
                         <a href="price.html" class="dropdown-item active">Pricing Plan</a>
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="blog.html" class="dropdown-item">More Services</a>
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
-                <a href="tel:+123456789" class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5"><i class="bi bi-telephone-outbound me-2"></i>+123 456 789</a>
+                <a href="tel:+923199881022" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5"><i class="bi bi-telephone-outbound me-2"></i>+92 319 9881022</a>
             </div>
         </div>
     </nav>
@@ -67,10 +132,10 @@
     <div class="container-fluid bg-primary p-5 hero-header mb-5">
         <div class="row py-5">
             <div class="col-12 text-center">
-                <h1 class="display-1 text-white animated zoomIn">Pricing</h1>
-                <a href="" class="h4 text-white">Home</a>
+                <h1 class="display-1 text-white animated zoomIn">Pricing Plans</h1>
+                <a href="index.html" class="h4 text-white">Home</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">Pricing</a>
+                <a href="price.html" class="h4 text-white">Pricing</a>
             </div>
         </div>
     </div>
@@ -82,7 +147,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pricing Plan</h5>
-                <h1 class="display-5 mb-0">Pricing Plan For CCTV Security Services</h1>
+                <h1 class="display-5 mb-0">Affordable Plans for Superior Security</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
@@ -91,19 +156,19 @@
                             <h3 class="text-white">Basic Plan</h3>
                             <h1 class="display-4 text-white">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">$</small>49<small
+                                    style="font-size: 22px; line-height: 45px;">$</small>150<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">/
                                     Mo</small>
                             </h1>
                         </div>
                         <div class="text-center py-5">
-                            <p class="border-bottom border-light mb-2 pb-2">HTML5 & CSS3</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Bootstrap v5</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Responsive Layout</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Browsers Compatibility</p>
-                            <p class="mb-2 pb-2">Easy to Use</p>
+                            <p class="border-bottom border-light mb-2 pb-2">12-Hour Live Monitoring</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Basic Alarm Verification</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Email Incident Reports</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Weekly System Checks</p>
+                            <p class="mb-2 pb-2">Standard Support</p>
                         </div>
-                        <a href="" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Order Now</a>
+                        <a href="contact.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Contact Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
@@ -112,19 +177,19 @@
                             <h3 class="text-white">Standard Plan</h3>
                             <h1 class="display-4 text-white">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">$</small>49<small
+                                    style="font-size: 22px; line-height: 45px;">$</small>300<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">/
                                     Mo</small>
                             </h1>
                         </div>
                         <div class="text-center py-5">
-                            <p class="border-bottom border-light mb-2 pb-2">HTML5 & CSS3</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Bootstrap v5</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Responsive Layout</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Browsers Compatibility</p>
-                            <p class="mb-2 pb-2">Easy to Use</p>
+                            <p class="border-bottom border-light mb-2 pb-2">24/7 Live Monitoring</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Two-Way Audio Intervention</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Instant Mobile Alerts</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Daily Incident Reports</p>
+                            <p class="mb-2 pb-2">Priority Support</p>
                         </div>
-                        <a href="" class="btn btn-secondary py-2 px-4 position-absolute top-100 start-50 translate-middle">Order Now</a>
+                        <a href="contact.html" class="btn btn-secondary py-2 px-4 position-absolute top-100 start-50 translate-middle">Contact Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
@@ -133,19 +198,19 @@
                             <h3 class="text-white">Extended Plan</h3>
                             <h1 class="display-4 text-white">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">$</small>49<small
+                                    style="font-size: 22px; line-height: 45px;">$</small>500<small
                                     class="align-bottom" style="font-size: 16px; line-height: 40px;">/
                                     Mo</small>
                             </h1>
                         </div>
                         <div class="text-center py-5">
-                            <p class="border-bottom border-light mb-2 pb-2">HTML5 & CSS3</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Bootstrap v5</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Responsive Layout</p>
-                            <p class="border-bottom border-light mb-2 pb-2">Browsers Compatibility</p>
-                            <p class="mb-2 pb-2">Easy to Use</p>
+                            <p class="border-bottom border-light mb-2 pb-2">All Standard Features</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Virtual Doorman Services</p>
+                            <p class="border-bottom border-light mb-2 pb-2">AI-Powered Analytics</p>
+                            <p class="border-bottom border-light mb-2 pb-2">Customized Reporting</p>
+                            <p class="mb-2 pb-2">Dedicated Account Manager</p>
                         </div>
-                        <a href="" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Order Now</a>
+                        <a href="contact.html" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Contact Now</a>
                     </div>
                 </div>
             </div>
@@ -161,67 +226,17 @@
                 <div class="col-lg-7 text-center">
                     <div class="text-center mx-auto mb-4" style="max-width: 600px;">
                         <h5 class="text-white text-uppercase" style="letter-spacing: 5px;">Special Offer</h5>
-                        <h1 class="display-5 text-white">Save 50% On All Items Your First Order</h1>
+                        <h1 class="display-5 text-white">Get a Custom Security Plan & Quote</h1>
                     </div>
-                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Order Now</a>
-                    <a href="" class="btn btn-secondary py-md-3 px-md-5">Read More</a>
+                    <p class="text-white mb-4">Every property is unique. Contact us today for a free, no-obligation security assessment. We will analyze your needs and provide a custom monitoring plan that fits your budget and provides maximum protection.</p>
+                    <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 me-3">Get a Free Quote</a>
+                    <a href="service.html" class="btn btn-secondary py-md-3 px-md-5">Our Services</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Offer End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h5>
-                <h1 class="display-5 mb-0">What People Say About Our Services</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="text-center pb-4">
-                    <img class="img-fluid mx-auto rounded-circle" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;" >
-                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h4 class="text-truncate">Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto rounded-circle" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;" >
-                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h4 class="text-truncate">Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto rounded-circle" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;" >
-                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h4 class="text-truncate">Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto rounded-circle" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
-                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h4 class="text-truncate">Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-    
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -230,45 +245,34 @@
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Popular Links</h3>
+                    <h3 class="text-white mb-4">Our Services</h3>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        <a class="text-light mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Live CCTV Monitoring</a>
+                        <a class="text-light mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Two-Way Audio</a>
+                        <a class="text-light mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Virtual Doorman</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Karachi, Pakistan</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>securelinkcctvms@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+92 319 9881022</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Follow Us</h3>
                     <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://x.com/Securelinkcctv" target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://web.facebook.com/profile.php?id=61578310804929" target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.linkedin.com/in/secure-link-202611375/" target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.instagram.com/scctvms/" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
                     </div>
-                </div>
-                <div class="col-12">
-                    <form class="mx-auto" style="max-width: 600px;">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -277,7 +281,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved.</p>
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">Secure Link</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <p class="mb-0">Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
@@ -285,7 +289,7 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+   
 
 
     <!-- Back to Top -->
