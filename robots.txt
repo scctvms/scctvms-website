@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 User-agent: *
+=======
+User-agent: *
+>>>>>>> bd8d72dbb947b51777422b700ef4c70a5dfe1b42
 Allow: /
